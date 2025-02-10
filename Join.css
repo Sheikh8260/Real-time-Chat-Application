@@ -1,0 +1,33 @@
+.joinOuterContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinInnerContainer {
+  width: 20%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.joinInput {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.button {
+  padding: 1rem;
+  width: 100%;
+  background-color: #2979ff;
+  color: white;
+  cursor: pointer;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}

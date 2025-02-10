@@ -1,0 +1,55 @@
+.outerContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+}
+
+.infoBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #2979ff;
+  color: white;
+}
+
+.leftInnerContainer h3 {
+  margin: 0;
+}
+
+.rightInnerContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.messages {
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 1rem;
+  background-color: #f3f3f3;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #eee;
+}
+
+input {
+  width: 90%;
+  padding: 1rem;
+}
+
+button {
+  width: 10%;
+  padding: 1rem;
+  background-color: #2979ff;
+  color: white;
+  cursor: pointer;
+}
